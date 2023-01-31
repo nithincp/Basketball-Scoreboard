@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto 30px auto;
+    font-family: 'Verdana';
+}
+
+.title{
+    color: white;
+    margin: 0px;
+}
+
+.component{
+    text-align: center;
+}
+
+.score-bg{
+    background: black;
+    text-align: center;
+    width: 120px;
+    margin: 20px;
+}
+
+#score-home{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: red;
+    font-size: 70px;
+    margin: 0px;
+    padding: 10px;
+}
+
+#score-away{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: red;
+    font-size: 70px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.btn{
+    background: #1B244A;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    height: 35px;
+    width: 35px;
+    border: 2px solid #9AABD8;
+    border-radius: 3px;
+}
+
+.newGame-btn{
+    background: #001d3d;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 35px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 3px;
+    text-shadow: 1px 1px 0px;
+}
